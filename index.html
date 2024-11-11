@@ -640,14 +640,16 @@
                 </div>
                 <div class="footer-input-wrapper">
                     <p class="footer-input-text">Subscribe</p>
-                    <div class="footer-form">
-                        <input
-                            type="text"
-                            name="user-email"
-                            id="user-email"
-                            class="footer-input"
-                            placeholder="E-mail"
-                        />
+                    <form class="footer-form">
+                        <label class="footer-form-label" for="user-email">
+                            <input
+                                type="email"
+                                name="user-email"
+                                id="user-email"
+                                class="footer-input"
+                                placeholder="E-mail"
+                            />
+                        </label>
                         <button class="email-button">
                             Subscribe
                             <svg
@@ -660,7 +662,7 @@
                                 ></use>
                             </svg>
                         </button>
-                    </div>
+                    </form>
                 </div>
             </div>
         </footer>
