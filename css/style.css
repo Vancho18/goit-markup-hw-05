@@ -516,6 +516,7 @@ footer span {
     flex-direction: column;
 }
 .email-button {
+    min-width: 165px;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -740,6 +741,7 @@ footer span {
     display: inline-flex;
 }
 .modal-check-apply-span {
+    display: inline-flex;
     width: 16px;
     height: 16px;
     border-radius: 2px;
